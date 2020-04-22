@@ -101,6 +101,7 @@ main{
 .main-book-title {
     margin-left: -70px;
     margin-top: 220px;
+    
 }
 
 .main-photo2 img{
@@ -109,7 +110,14 @@ main{
     margin-top: -142px;
     border: solid black 1px;
     padding: 5px;
+   
 
+}
+
+.main-book-title2{
+    margin-left: 185px;
+   margin-top:-25px;
+   
 }
 
 aside{
