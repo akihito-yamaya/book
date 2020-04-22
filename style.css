@@ -116,9 +116,30 @@ main{
 
 .main-book-title2{
     margin-left: 185px;
-   margin-top:-25px;
+    margin-top:-25px;
    
 }
+
+.main-photo3 img{
+    width: 18%;
+    margin-left: 300px;
+    margin-top: -142px;
+    padding: 5px;
+}
+
+.main-photo4 img{
+    width: 18%;
+    margin-left: 300px;
+    margin-top: -142px;
+    padding: 5px;
+}
+
+.main-book-title3{
+    margin-left: 295px;
+    margin-top:-25px;
+}
+
+
 
 aside{
     background-color: white;
