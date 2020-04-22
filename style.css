@@ -103,7 +103,14 @@ main{
     margin-top: 220px;
 }
 
+.main-photo2 img{
+    width: 18%;
+    margin-left: 140px;
+    margin-top: -142px;
+    border: solid black 1px;
+    padding: 5px;
 
+}
 
 aside{
     background-color: white;
