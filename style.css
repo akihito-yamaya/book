@@ -88,6 +88,17 @@ main{
     width: 300px;
 }
 
+.main-photo1 img{
+    width: 18%;
+    border: black;
+   margin-left:-400px;
+    margin-top: 60px;
+    border: solid black 1px;
+    padding: 5px;
+    
+}
+
+
 
 aside{
     background-color: white;
