@@ -66,6 +66,29 @@ main{
     float: left;
 }
 
+.main-top{
+    position: relative;
+    left: 80px;
+    bottom: 40px
+    
+}
+
+.main-top p{
+    position: relative;
+    color: black;
+    font-size: 40px;
+    right: 247px;
+    top: 30px;
+    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+
+.main-top img{
+    height: 100px;
+    width: 300px;
+}
+
+
 aside{
     background-color: white;
     height: 700px;
