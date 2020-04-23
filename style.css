@@ -151,7 +151,16 @@ main{
     margin-top:120px;
 }
 
+.main-photo6 img{
+    width: 35%;
+    margin-left: 250px;
+    margin-top: -130px;
+}
 
+.main-book-title5{
+    margin-left: 280px;
+    margin-top: -24px;
+}
 
 aside{
     background-color: white;
