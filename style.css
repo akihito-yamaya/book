@@ -139,6 +139,17 @@ main{
     margin-top:-25px;
 }
 
+.main-photo5 img{
+    width: 35%;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+.main-book-title4{
+    margin-left: 5px;
+    margin-top:120px;
+}
+
 
 
 aside{
