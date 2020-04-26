@@ -1,0 +1,20 @@
+diff a/style.css b/style.css	(rejected hunks)
+@@ -8,10 +9,15 @@
++* {
++    box-sizing: border-box;
++    margin: 0;   
++   padding: 0;
++ }
++ 
++
+ body{
+     background-color: #e0ffff;
+-    height: 3000px;
+-    overflow-y: scroll;
+ }
+ 
+-.header{
++header{
+     background-color: yellow;
+     height: 100px;
+     position: fixed;

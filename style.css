@@ -1,28 +1,35 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;   
+   padding: 0;
+ }
+ 
+
 body{
     background-color: #e0ffff;
-    height: 3000px;
-    overflow-y: scroll;
+    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";;
 }
 
-.header{
+
+header{
     background-color: yellow;
     height: 100px;
-    position: fixed;
 }
 
 h1{
     float: left;
     margin-left: 30px;
     margin-top: 30px;
-    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";;
 }
 
 img{
-    width: 7%;
+    width: 70px;
+    height: 70px;
     margin-left: 50px;
     margin-top: 5px;
     float: left;
 }
+
 
 li{
     float: right;
@@ -30,7 +37,6 @@ li{
     margin: 10px;
     margin-top: 35px;
     font-size: 25px;
-    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
     border: solid 2px white;
     border-radius: 30px;
     padding: 6px;
@@ -57,141 +63,132 @@ a:active{
     color: #3cb371;
 }
 
-
-main{
+.main{
     background-color: white;
-    height: 520px;
+    height: 500px;
     width: 550px;
-    margin-top: 20px;
-    margin-left: 200px;
-    border-radius: 30px;
     float: left;
-}
-
-.main-top{
+    border-radius: 30px;
+    margin-left: 250px;
     position: relative;
-    left: 80px;
-    bottom: 40px
     
 }
 
-.main-top p{
-    position: relative;
-    color: black;
-    font-size: 40px;
-    right: 247px;
-    top: 30px;
-    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
-}
-
-
-.main-top img{
-    height: 100px;
+.title img{
     width: 300px;
-}
-
-.main-photo1 img{
-    width: 18%;
-    border: black;
-   margin-left:-400px;
-    margin-top: 30px;
-    border: solid black 1px;
-    padding: 5px;
-    
-}
-
-.main-book-title {
-    margin-left: -40px;
-    margin-top: 190px;
-    
-}
-
-.main-photo2 img{
-    width: 18%;
-    margin-left: 66px;
-    margin-top: -167px;
-    border: solid black 1px;
-    padding: 5px;
-   
-
-}
-
-.main-book-title2{
+    height: 80px;
+    text-align: center;
+    position: relative;
     margin-left: 120px;
-    margin-top:-45px;
    
 }
 
-.main-photo3 img{
-    width: 30%;
-    margin-left: 180px;
-    margin-top: -160px;
-    padding: 5px;
+h2{
+    font-size: 50px;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 20px;
 }
 
-.main-photo4 img{
-    width: 30%;
-    margin-left: 180px;
-    margin-top: -160px;
-    padding: 5px;
+.main-img1 img{
+    width: 130px;
+    height: 150px;
+    position: absolute;right: 410px;top: 90px;
+    border: solid 1px black;
+
 }
 
-.main-book-title3{
-    margin-left: 210px;
-    margin-top:-25px;
+.book-title1{
+    position: absolute;right: 420px;top: 250px;
 }
 
-.main-photo5 img{
-    width: 35%;
-    margin-left: -50px;
-    margin-top: 10px;
+.main-img2 img{
+    width: 130px;
+    height: 150px;
+    position: absolute;right: 280px;top: 90px;
 }
 
-.main-book-title4{
-    margin-left: 5px;
-    margin-top:140px;
+.book-title2{
+    position: absolute;right: 315px;top: 250px;
 }
 
-.main-photo6 img{
-    width: 35%;
-    margin-left: 150px;
-    margin-top: -130px;
+.main-img3 img{
+    width: 150px;
+    height: 100px;
+    position: absolute;right: 130px;top: 140px;
 }
 
-.main-book-title5{
-    margin-left: 185px;
-    margin-top: -24px;
+.book-title3{
+    position: absolute;right: 140px;top: 250px;
+    display: inline-block;
 }
 
-.main-phtoto7 img{
-    width: 15%;
-    margin-left: 360px;
-    margin-top: -297px;
+.main-img4 img{
+    width: 130px;
+    height: 150px;
+    position: absolute;right: 5px;top:90px;
 }
 
-.main-book-title6{
-    margin-left:362px ;
-    margin-top: -185px;
+.book-title4{
+    position: absolute;right: 5px;top: 250px;
 }
 
-.main-photo8 img{
-     width: 17%;
-     margin-left: 350px;
-     margin-top: -130px;
+.main-img5 img{
+    width: 130px;
+    height: 150px;
+    position: absolute;right: 410px;top:290px;
 }
 
-.main-book-title7{
-    margin-top: 135px;
-    margin-left: 350px;
-    
+.book-title5{
+     position: absolute;right: 420px;top: 450px;
 }
 
-aside{
-    background-color: white;
-    height: 700px;
-    width: 250px;
-    margin-top: 70px;
-    margin-left: 10px;
-    border-radius: 30px;
-    float: left;
+.main-img6 img{
+    width: 130px;
+    height: 150px;
+    position: absolute;right: 280px;top:290px;
+    border: solid 1px black;
 }
+
+.book-title6{
+    position: absolute;right: 340px;top: 450px;
+     
+}
+
+.main-img7 img{
+    width: 150px;
+    height: 130px;
+    position: absolute;right: 130px;top:310px;
+}
+
+.book-title7{
+    position: absolute;right: 160px;top: 450px;
+}
+
+.main-img8 img{
+    width: 130px;
+    height: 150px;
+    position: absolute;right: 10px;top:290px;
+}
+
+.book-title8{
+     position: absolute;right: 40px;top: 450px;
+}
+
+.aside1{
+   margin-left:850px ;
+   background-color: white;
+   height: 250px;
+   width: 250px;
+   overflow-y: scroll;
+   margin-left: 800px;
+}
+
+
+.footer{
+
+    height: 120px;
+    margin-top:500px ;
+    background-color: #00ffff;
+}
+
