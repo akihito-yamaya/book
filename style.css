@@ -83,7 +83,7 @@ a:active{
    
 }
 
-h2{
+.title h2{
     font-size: 50px;
     position: absolute;
     margin-left: 170px;
@@ -185,19 +185,24 @@ h2{
     margin-left: 820px;
     position: relative;
     padding-top: 10px;
+    margin-top: 200px;
+    border-radius: 30px;
 
 }
 
 .aside1 img{
     height: 80px;
-    width: 260px;
-    position: absolute;
-    right: 20px;
-    top: -5px;
-  
-    
+    width: 280px;
+    position: relative;
+    right: 40px;
+    top: -10px;
 }
 
+.aside h2{
+    font-size: 30px;
+    position: absolute;right: 40px;top: 30px;
+}
+    
 .scroll{
     border: solid 1px rgb(151, 138, 138);
     height:210px ;
