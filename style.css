@@ -176,3 +176,35 @@ h2{
 }
 
 
+
+
+.aside{
+    background-color: #f5fffa;
+    height:300px ;
+    width: 300px; ;
+    margin-left: 820px;
+    position: relative;
+    padding-top: 10px;
+
+}
+
+.aside1 img{
+    height: 80px;
+    width: 260px;
+    position: absolute;
+    right: 20px;
+    top: -5px;
+  
+    
+}
+
+.scroll{
+    border: solid 1px rgb(151, 138, 138);
+    height:210px ;
+    width: 260px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 85px;
+    right:20px;
+   
+}
