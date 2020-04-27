@@ -187,6 +187,37 @@ a:active{
 
 .aside1 img{
     width: 200px;
+    position: relative;
+}
+
+.aside1 h2{
+    margin-right: 50px;
+    margin-top:-10px ;
+    position: absolute;
+}
+
+
+.aside1 select{
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 75px;
+    padding: 3px;
+}
+
+
+
+.aside1 input{
+    width: 200px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+input[type="submit"] {
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 
 
