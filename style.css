@@ -175,22 +175,30 @@ a:active{
      position: absolute;right: 40px;top: 450px;
 }
 
+.aside1{
+    background-color: #f5fffa;
+    height: 190px;
+    width: 300px;
+    margin-left:820px ;
+    position: relative;
+    border-radius: 30px;
+    
+}
 
 
-
-.aside{
+.aside2{
     background-color: #f5fffa;
     height:300px ;
     width: 300px; ;
     margin-left: 820px;
     position: relative;
     padding-top: 10px;
-    margin-top: 200px;
     border-radius: 30px;
+    margin-top:10px ;
 
 }
 
-.aside1 img{
+.aside2 img{
     height: 80px;
     width: 280px;
     position: relative;
