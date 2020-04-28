@@ -6,7 +6,7 @@
  
 
 body{
-    background-color: #e0ffff;
+    background-color:rgb(245, 241, 241);
     font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";;
     box-sizing: border-box;
 }
@@ -14,7 +14,7 @@ body{
 
 
 header{
-    background-color: yellow;
+    background-color: #ffccdd;
     height: 120px;
     width: 1535px;
 }
@@ -181,7 +181,7 @@ a:active{
 }
 
 .aside1{
-    background-color: #f5fffa;
+    background-color: white;
     height: 200px;
     width: 300px;
     margin-left:920px ;
@@ -231,7 +231,7 @@ input[type="submit"] {
 
 
 .aside2{
-    background-color: #f5fffa;
+    background-color: white;
     height:320px ;
     width: 300px; ;
     margin-left: 920px;
@@ -268,7 +268,7 @@ input[type="submit"] {
 }
 
 .footer{
-    background-color: yellow;
+    background-color: #ffccdd;
     height:70px ;
     width: 1535px;
   
