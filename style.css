@@ -212,12 +212,16 @@ a:active{
     height: 25px;
     margin-top: 30px;
     margin-left: 50px;
+   
 }
 
 input[type="submit"] {
     height: 40px;
     margin-top: 10px;
     margin-left: 50px;
+    background-color:#ffd700;
+    border-radius: 30px;
+    font-size: 25px;
 }
 
 
