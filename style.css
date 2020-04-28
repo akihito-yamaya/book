@@ -193,7 +193,7 @@ a:active{
     background-color: white;
     height: 200px;
     width: 300px;
-    margin-left:920px ;
+    margin-left:880px ;
     position: relative;
     border-radius: 30px;
     
@@ -244,7 +244,7 @@ input[type="submit"] {
     background-color: white;
     height:320px ;
     width: 300px; ;
-    margin-left: 920px;
+    margin-left: 880px;
     position: relative;
     padding-top: 10px;
     border-radius: 30px;
