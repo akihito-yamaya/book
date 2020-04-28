@@ -268,8 +268,9 @@ input[type="submit"] {
 
 .footer{
     background-color: yellow;
-    height:120px ;
+    height:70px ;
     width: 1535px;
+    margin-top: 30px;
    
 }
 
