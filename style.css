@@ -8,12 +8,15 @@
 body{
     background-color: #e0ffff;
     font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";;
+    box-sizing: border-box;
 }
+
 
 
 header{
     background-color: yellow;
     height: 100px;
+    width: 1535px;
 }
 
 h1{
@@ -31,6 +34,7 @@ img{
 }
 
 
+
 header li{
     float: right;
     list-style-type: none;
@@ -41,6 +45,7 @@ header li{
     border-radius: 30px;
     padding: 6px;
     background-color: white;
+   
  
     
 }
